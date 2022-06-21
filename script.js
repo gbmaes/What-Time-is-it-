@@ -6,15 +6,15 @@ var hora = data.getHours()
 var minuto = data.getMinutes()
 msg.innerHTML = `This is now ${hora} hours and ${minuto} minutes.`
 if (hora >= 0 && hora < 12){
-    // bom dia
+    // good morning
     img.src = 'manha.png'
     document.body.style.background = '#e2cd9f'
 } else if (hora >= 12 && hora < 18) {
-    //boa tarde
+    // good afternoon
     img.src = 'tarde.png'
     document.body.style.background = '#b9846f'
 } else {
-    //boa noite
+    // good night
     img.src = 'noite.png'
     document.body.style.background = '#515154'
 }
