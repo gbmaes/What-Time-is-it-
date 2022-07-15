@@ -4,7 +4,7 @@ var img = window.document.getElementById('img')
 var data = new Date()
 var hora = data.getHours()
 var minuto = data.getMinutes()
-msg.innerHTML = `This is now ${hora} hours and ${minuto} minutes.`
+msg.innerHTML = `It is now ${hora} hours and ${minuto} minutes.`
 if (hora >= 0 && hora < 12){
     // good morning
     img.src = 'manha.png'
